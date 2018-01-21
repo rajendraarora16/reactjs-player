@@ -8,7 +8,7 @@ export default class App extends React.Component {
         return(
             <div className="super-container">
                 <Header />
-                <MusicPlayer playlist={musicData}  />
+                <MusicPlayer playlist={musicData} autoplay />
             </div>
         );
     }
