@@ -24,11 +24,28 @@ $player-control-font-size: 1.8em !default;
 $player-cover-width: 240px !default;
 $player-cover-height: $player-cover-width;
 
+.header-top * {
+  font-family: 'Gloria Hallelujah', cursive !important;
+}
+
+.header-top {
+  color: #ecf0f1;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 30px;
+  line-height: 1px;
+  font-weight: 500;
+}
+
 * {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,PingFang SC,Source Han Sans CN,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #2c3e50;
 }
 
 %row {
@@ -75,7 +92,8 @@ $player-cover-height: $player-cover-width;
       }
 
       .title {
-        margin-bottom: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
         color: $player-title-color;
         font-size: $font-size-lg;
       }

@@ -163,7 +163,7 @@ class MusicPlayer extends Component {
     const playModeClass = playMode === 'loop' ? 'refresh' : playMode === 'random' ? 'random' : 'repeat'
     const btnStyle = { color: btnColor }
     const progressStyle = { width: `${this.state.progress * 100}%`, backgroundColor: progressColor }
-console.log('playlist[activeMusicIndex]: ', playlist[activeMusicIndex])
+
     return (
       <div className="player-container" style={this.props.style}>
         <audio
