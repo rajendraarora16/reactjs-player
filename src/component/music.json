@@ -1,4 +1,14 @@
-[{
+[
+{
+	"url": "http://res.cloudinary.com/dqluxvgsf/video/upload/v1516531158/Burak_Yeter_-_Tuesday_ft._Danelle_Sandoval_z5pfzq.mp3",
+	"cover": "https://i.stack.imgur.com/GTdzA.jpg",
+	"title": "Tuesday",
+	"artist": [
+		"Burak Yeter",
+		"Danelle Sandoval"
+	]
+},
+{
 	"url": "http://res.cloudinary.com/dqluxvgsf/video/upload/v1516522036/what_is_love_fftict.mp3",
 	"cover": "https://i.stack.imgur.com/ydOWy.jpg",
 	"title": "What is Love",
